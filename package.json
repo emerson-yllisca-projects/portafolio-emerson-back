@@ -1,0 +1,32 @@
+{
+  "name": "portafolio-emerson-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prd": "node api/src/index.js",
+    "dev": " nodemon api/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emerson-yllisca-projects/portafolio-emerson-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emerson-yllisca-projects/portafolio-emerson-back/issues"
+  },
+  "homepage": "https://github.com/emerson-yllisca-projects/portafolio-emerson-back#readme"
+}

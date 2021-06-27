@@ -1,0 +1,13 @@
+version: '3'
+services: 
+    app:
+     image: 'mongo'
+     container_name: 'portafolio_emerson'
+     environment: 
+         - MONGO_INITDB_DATABASE=portafolio
+         - MONGO_INITDB_ROOT_USERNAME=root
+         - MONGO_INITDB_ROOT_PASSWORD=Password.01
+     volumes:
+        - './data:/data/db'
+     ports: 
+         - 27019:27017
